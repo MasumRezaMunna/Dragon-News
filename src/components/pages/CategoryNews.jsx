@@ -1,11 +1,13 @@
 import React from "react";
+import { useParams } from "react-router";
+
 
 const CategoryNews = () => {
+  const {id} = useParams();
+  console.log(id);
   return (
     <div>
-      <div>
-        <h2>category news</h2>
-      </div>
+      <p>category news - {id}</p>
     </div>
   );
 };

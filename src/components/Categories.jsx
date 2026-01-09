@@ -13,7 +13,7 @@ const Categories = () => {
           <NavLink
             key={category.id}
             to={`/category/${category.id}`}
-            className={"btn bg-base-100 border-0 hover:bg-base-300"}
+            className={"btn bg-base-100 border-0 hover:bg-base-200 font-semibold text-accent"}
           >
             {category.name}
           </NavLink>
