@@ -3,7 +3,9 @@ import React from "react";
 const CategoryNews = () => {
   return (
     <div>
-      <div> category news</div>
+      <div>
+        <h2>category news</h2>
+      </div>
     </div>
   );
 };
