@@ -4,7 +4,7 @@ const NewsCard = ({ news }) => {
   const { title, author, image_url, details, rating, total_view, tags } = news;
 
   return (
-    <div className="card bg-base-100 shadow-md m-3">
+    <div className="card bg-base-100 shadow-md">
       {/* Author */}
       <div className="flex justify-between w-full items-center bg-base-200">
         <div className="flex items-center gap-3 p-4">
